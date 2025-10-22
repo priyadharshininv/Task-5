@@ -1,0 +1,19 @@
+Objective :
+	The main objective of this phishing awareness task is to understand how phishing attacks are created and executed, so that their techniques can be recognized and defended against in real-world scenarios. The activity aims to increase awareness about social engineering tactics, fake login pages, and data theft methods commonly used by attackers. By simulating phishing attacks in a controlled environment, participants gain practical knowledge on identifying phishing attempts, reporting them correctly, and implementing preventive measures to strengthen system and user security.
+
+Scope :
+	This task focuses on demonstrating phishing techniques using the Zphisher tool in a safe, authorized, and isolated environment. The scope includes setting up phishing templates, understanding how attackers clone legitimate websites, and analyzing how user credentials could be captured if proper awareness and protections are not in place. The exercise is strictly limited to educational and research purposes, ensuring no real user data or external systems are targeted. It helps learners understand the working process of phishing tools so they can develop effective countermeasures, strengthen defenses, and educate others on avoiding such attacks.
+
+Tools used :
+  The primary tool used was Zphisher, an open-source phishing toolkit utilized in a controlled virtual lab to demonstrate how phishing pages are created.
+
+ZPHISHING Installation :
+
+ Clone this repository 
+
+git clone --depth=1 https://github.com/htr-tech/zphisher.git
+
+Now go to cloned directory and run zphisher.sh -
+
+$ cd zphisher
+$ bash zphisher.sh
